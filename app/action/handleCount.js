@@ -27,7 +27,6 @@ export function decreaseCount(goods,_index,index){
 }
 
 export function empty(goods){
-
   goods.forEach((good) => {
     good.foods.forEach((food) => {
       if (food.count) {
